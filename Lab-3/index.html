@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kunal's Journal</title>
+        <meta name="description" content="Entries in Kunal's journal">
+        <link rel="stylesheet" href="journalStyle.css">
+        <link rel="icon" href="server-icon-1.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap">
+        <style>
+            body {
+                background-color: #252525;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <marquee><h3>Welcome to this website!</h3></marquee>
+            <h1>Kunal's Journal</h1>
+            <p>By: Kunal Singla</p>
+            <nav>
+                <a href="#Entry1">Entry #1</a>
+                <a href="#Entry2">Entry #2</a>
+                <a href="#Entry3">Entry #3</a>
+                <a href="#Memes">Memes</a>
+                <a href="#Feedback-Form">Interactive</a>
+                <a href="#footer">Footer</a>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section class=journalEntry id="Entry1">
+                <div>
+                    <h2>
+                        Title: Great Day
+                    </h2>
+                    <h3>
+                        Date: April 8, 2021
+                    </h3>
+                    <p>
+                        Got a lot of <span>work</span> done today. I ate some really good food for lunch.
+                    </p>
+                </div>
+                <div>
+                    <ol>
+                        <li>Got up at 8</li>
+                        <li>Had 2 classes from 10-12</li>
+                        <li>Ate lunch</li>
+                        <li><i>died</i></li>
+                        <li>Another class at 4</li>
+                        <li><em>ded</em> <strong>lMaO</strong></li>
+                    </ol>
+                </div>
+
+            </section>
+            <hr>
+            
+            <section class=journalEntry id="Entry2">
+                <div>
+                    <h2>
+                        Title: Busy Day
+                    </h2>
+                    <h3>
+                        Date: April 7, 2021
+                    </h3>
+                    <p>
+                        Was very busy today. I had classes from 10am to 6pm back to back. I used the Lab time to grab lunch
+                        and I bought some noodles from Pines.
+                    </p>
+                </div>
+            </section>
+            <hr>
+
+            <section class=journalEntry id="Entry3">
+                <div>
+                    <h2>
+                        Title: Average Day
+                    </h2>
+                    <h3>
+                        Date: April 6, 2021
+                    </h3>
+                    <p>
+                        Had a lot of <b>free time</b> today. I used that time to:
+                    </p>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            talk with my family
+                        </li>
+                        <li>
+                            finish next week's homework
+                        </li>
+                        <li>
+                            talk with friends
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+            <hr>
+
+            <section id="Memes">
+                <h2>Original MEMES:</h2>
+                <div id="media">
+                    <details id="dropdown">
+                        <summary>Mario Woo</summary>
+                        <audio controls>
+                            <source src="mario.mp3" type="audio/mp3">
+                        </audio>
+                    </details>
+                    <video controls><source src="OCMEME.mp4" type="video/mp4"></video>
+                    <img src="Copmarison.png" alt="Kachowski" width="600">
+                </div>
+            </section>
+            <hr>
+
+            <section id="Feedback-Form">
+                <fieldset>
+                    <h3>Give us your feedback!</h3>
+                    <form>
+                        <label>Name:</label> <input type="text">
+                        <label>Date:</label> <input type="date"> 
+                        <br>
+                        <input type="checkbox"> <label>Could the memes be better?</label><br>
+                        <input type="radio"> <label>Were the memes good enough?</label><br>
+                        <textarea id="description" name="description" rows="10" cols="150">Please describe any issues you had with this webpage.</textarea>
+                        <br>
+                        
+                        <div class=metrics>
+                            <label for="browsers">Choose your browser:</label>
+                            <select name="browser" id="browsers">
+                                <option value="chrome">Chrome</option>
+                                <option value="firefox">Firefox</option>
+                                <option value="safari">Safari</option>
+                                <option value="edge">Microsoft Edge</option>
+                                <option value="ie">internet explorer</option>
+                            </select>
+
+                            <label for="OS">Operating System</label>
+                            <input list="OS1" name="OS1" id="OS">
+                            <datalist id="OS1">
+                                <option value="Linux">
+                                <option value="Windows XP">
+                                <option value="Macintosh 2.0">
+                                <option value="ChromeOS">
+                            </datalist>
+
+                            <button type="button" id="submit">Submit Feedback!</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <b>Made by Kunal Singla</b>
+            <br>
+            <b>Copyright © 2021</b>
+        </footer>
+    </body>
+</html>
